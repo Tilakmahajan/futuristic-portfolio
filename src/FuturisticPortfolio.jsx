@@ -275,11 +275,10 @@ export default function FuturisticPortfolio() {
                     </a>
                     <nav className="hidden md:flex items-center gap-6 text-sm text-white/80">
                         <a href="#projects" className="hover:text-white">Projects</a>
-                        <a href="#skills" className="hover:text-white">Skills</a>
-                        <a href="#experience" className="hover:text-white">Experience</a>
+                        <a href="#experience" className="hover:text-white">skills</a>
                         <a href="#contact" className="hover:text-white">Contact</a>
                         <a
-                            href="/Tilak_Mahajan_Resume.pdf"
+                            href="/Tilak_Mahajan_Resume_2025.pdf"
                             className="inline-flex items-center gap-2 rounded-full border border-white/20 px-4 py-1.5 hover:border-cyan-400/60 hover:text-cyan-200 transition"
                         >
                             <FileDown className="w-4 h-4" /> Resume
@@ -429,7 +428,7 @@ export default function FuturisticPortfolio() {
         desc: "JS + HTML5 foundations certified; strengthening web fundamentals.",
       },
       {
-        year: "2023",
+        year: "2025",
         title: "Angular",
         desc: "Completed Angular certification demonstrating skills in frontend development",
       },
@@ -535,7 +534,7 @@ export default function FuturisticPortfolio() {
                                     e.preventDefault();
                                     const name = e.currentTarget.name.value;
                                     const body = encodeURIComponent(`Hi Tilak,\n\nI am interested in your profile.\n\n— ${name}`);
-                                    window.location.href = `mailto:tilakmahajan99@gmail.com?subject=Let%27s%20work%20together&body=${body}`;
+                                    window.location.href = `mailto:tilakmahajan1610@gmail.com?subject=Let%27s%20work%20together&body=${body}`;
                                 }}
                             >
                                 <div className="grid grid-cols-2 gap-3">
@@ -557,8 +556,8 @@ export default function FuturisticPortfolio() {
                                     <div className="mt-4 flex flex-wrap gap-3">
                                         <a href="https://github.com/Tilakmahajan" className="rounded-xl border border-white/15 bg-white/5 px-4 py-2 hover:border-cyan-400/60">GitHub</a>
                                         <a href="https://www.linkedin.com/in/tilak-mahajan/" className="rounded-xl border border-white/15 bg-white/5 px-4 py-2 hover:border-cyan-400/60">LinkedIn</a>
-                                        <a href="/Tilak_Mahajan_Resume.pdf" className="rounded-xl border border-white/15 bg-white/5 px-4 py-2 hover:border-cyan-400/60">Resume</a>
-                                        <a href="https://mahajantilak.netlify.app/" className="rounded-xl border border-white/15 bg-white/5 px-4 py-2 hover:border-cyan-400/60">Portfolio</a>
+                                        <a href="/Tilak_Mahajan_Resume_2025.pdf" className="rounded-xl border border-white/15 bg-white/5 px-4 py-2 hover:border-cyan-400/60">Resume</a>
+                                        <a className="rounded-xl border border-white/15 bg-white/5 px-4 py-2 hover:border-cyan-400/60" href="mailto: tilakmahajan1610@gmail.com">Email Us</a>
                                     </div>
                                 </div>
                             </NeonCard>
