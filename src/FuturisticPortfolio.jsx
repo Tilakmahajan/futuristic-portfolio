@@ -203,6 +203,27 @@ const SkillCube = () => {
 // ===== Data =====
 const projects = [
     {
+        title: "AI Interior Design Web App ",
+        tech: ["Replicate API", "Firebase", "Auth", "Next.js"],
+        desc: " AI-powered interior design application that generates redesigned room images",
+        live: "https://interior-six-gray.vercel.app/", // replace with real link if separate
+        repo: "https://github.com/Tilakmahajan/interior",
+    },
+    {
+        title: "E-Commerce Web App",
+        tech: ["Next.js", "Firebase", "Auth", "Framer Motion"],
+        desc: "Developed a full-stack e-commerce platform as part of a freelance project.",
+        live: "https://www.maxwholesaler.shop/", // replace with real link if separate
+        repo: "https://github.com/Tilakmahajan/e-commerce",
+    },
+    {
+        title: "Telemedicine Platform",
+        tech: ["React", "Firebase", "Auth", " Socket.io"],
+        desc: "A react-based web application that allows users to chat in real time.",
+        live: "https://telemedicine-inky-eight.vercel.app/", // replace with real link if separate
+        repo: "https://github.com/Tilakmahajan/telemedicine",
+    },
+    {
         title: "Realtime Chat App",
         tech: ["React", "Firebase", "Auth", "Realtime DB"],
         desc: "A react-based web application that allows users to chat in real time.",
@@ -216,13 +237,7 @@ const projects = [
         live: "https://getyourchai.netlify.app/",
         repo: "https://github.com/Tilakmahajan/Get-me-chai",
     },
-    {
-        title: "Songsa (Music App)",
-        tech: ["React", "API", "Audio"],
-        desc: "love for music to create a platform that enhances the listening experience of music.",
-        live: "https://songsa.netlify.app/",
-        repo: "https://github.com/Tilakmahajan/Songsa-web",
-    },
+    
     {
         title: "Password Manager",
         tech: ["React", "Tailwind CSS", "MongoDB"],
@@ -230,22 +245,6 @@ const projects = [
         live: "https://managepaswords.netlify.app/",
         repo: "https://github.com/Tilakmahajan/Password-Manager",
     },
-    {
-        title: "Coupon Distribution",
-        tech: ["React", "Tailwind CSS", "Netlify"],
-        desc: "Distribute offers equally with smart round-robin logic—no spam, no bias.",
-        live: "https://robincoupondistribution.netlify.app/",
-        repo: "https://github.com/Tilakmahajan/Round-Robin-Coupon-distribution",
-    },
-    {
-        title: "Netflix",
-        tech: ["HTML", "CSS", "JAVASCRIPT"],
-        desc: "A simple Netflix Clone built using HTML, CSS, and JavaScript",
-        live: "https://fllixx.netlify.app/",
-        repo: "https://github.com/Tilakmahajan/netflix-front",
-    },
-
-
 ];
 
 const skills = [
@@ -279,7 +278,7 @@ export default function FuturisticPortfolio() {
                         <a href="#experience" className="hover:text-white">skills</a>
                         <a href="#contact" className="hover:text-white">Contact</a>
                         <a
-                            href="/Tilak_Mahajan_Resume_2025.pdf"
+                            href="/Tilak_Mahajan_tilakmahajan1610@gmail.com.pdf"
                             className="inline-flex items-center gap-2 rounded-full border border-white/20 px-4 py-1.5 hover:border-cyan-400/60 hover:text-cyan-200 transition"
                         >
                             <FileDown className="w-4 h-4" /> Resume
@@ -420,7 +419,7 @@ export default function FuturisticPortfolio() {
     {[
       {
         year: "2025",
-        title: "Oracle OCI AI Foundations (in-progress)",
+        title: "Oracle OCI AI Foundations",
         desc: "Expanding cloud + AI skills to power production apps.",
       },
       {
