@@ -499,7 +499,7 @@ export default function FuturisticPortfolio() {
           </ResponsiveContainer>
         </div>
         <div className="mt-4 text-xs text-white/60">
-          * auto-evaluated scale (0–100) — tune in code
+          auto-evaluated scale (0–100) — tune in code.
         </div>
       </div>
     </NeonCard>
