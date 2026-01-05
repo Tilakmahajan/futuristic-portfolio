@@ -310,7 +310,7 @@ export default function FuturisticPortfolio() {
                                 <MousePointerClick className="w-4 h-4" /> View Projects
                             </a>
                             <a
-                                href="mailto:tilakmahajan99@gmail.com"
+                                href="mailto:tilakmahajan1610@gmail.com"
                                 className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-cyan-500 via-fuchsia-500 to-violet-500 px-5 py-2.5 font-medium shadow-[0_0_30px_-10px_rgba(168,85,247,0.8)] hover:scale-[1.02] transition"
                             >
                                 <Rocket className="w-4 h-4" /> Hire Me
@@ -319,7 +319,7 @@ export default function FuturisticPortfolio() {
                         <div className="mt-8 flex items-center gap-4 text-white/70">
                             <a href="https://github.com/Tilakmahajan" className="hover:text-white" aria-label="GitHub"><Github /></a>
                             <a href="https://www.linkedin.com/in/tilak-mahajan/" className="hover:text-white" aria-label="LinkedIn"><Linkedin /></a>
-                            <a href="mailto:tilakmahajan99@gmail.com" className="hover:text-white" aria-label="Email"><Mail /></a>
+                            <a href="mailto:tilakmahajan1610@gmail.com" className="hover:text-white" aria-label="Email"><Mail /></a>
                             <a href="https://mahajantilak.netlify.app/" className="hover:text-white" aria-label="Portfolio"><ExternalLink /></a>
                         </div>
                     </motion.div>
