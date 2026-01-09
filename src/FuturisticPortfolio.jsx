@@ -557,6 +557,7 @@ export default function FuturisticPortfolio() {
                                         <a href="https://github.com/Tilakmahajan" className="rounded-xl border border-white/15 bg-white/5 px-4 py-2 hover:border-cyan-400/60">GitHub</a>
                                         <a href="https://www.linkedin.com/in/tilak-mahajan/" className="rounded-xl border border-white/15 bg-white/5 px-4 py-2 hover:border-cyan-400/60">LinkedIn</a>
                                         <a href="/Tilak_Mahajan_tilakmahajan1610@gmail.com.pdf" className="rounded-xl border border-white/15 bg-white/5 px-4 py-2 hover:border-cyan-400/60">Resume</a>
+                                        <a href="/https://leetcode.com/u/tilakmahajan/" className="rounded-xl border border-white/15 bg-white/5 px-4 py-2 hover:border-cyan-400/60">LeetCode</a>
                                         <a className="rounded-xl border border-white/15 bg-white/5 px-4 py-2 hover:border-cyan-400/60" href="mailto: tilakmahajan1610@gmail.com">Email Us</a>
                                     </div>
                                 </div>
