@@ -246,6 +246,22 @@ const projects = [
         repo: "https://github.com/Tilakmahajan/Password-Manager",
     },
 ];
+const openSourceContributions = [
+  {
+    project: "Vite",
+    role: "Open Source Contributor",
+    desc: "Fixed UI maintenance issues in the Vite documentation website. Contribution reviewed and merged into the main branch (PR #21431).",
+    tech: ["Vite", "Tailwind CSS", "JavaScript"],
+    pr: "https://github.com/vitejs/vite/pull/21431",
+  },
+  {
+    project: "Tailwind CSS",
+    role: "Open Source Contributor",
+    desc: "Resolved documentation UI issues in the Tailwind CSS website.that were merged into the main branch (PR #2435).",
+    tech: ["Tailwind CSS", "JavaScript", "CSS"],
+    pr: "https://github.com/tailwindlabs/tailwindcss.com/pull/2435",
+  },
+];
 
 const skills = [
     { subject: "React", A: 90 },
@@ -390,6 +406,78 @@ export default function FuturisticPortfolio() {
                     </div>
                 </div>
             </section>
+
+
+            {/* open Source Contribution*/}
+            {/* Open Source Contributions */}
+<section id="open-source" className="relative py-20">
+  <div className="absolute inset-0 -z-10 bg-gradient-to-b from-[#05060b] via-[#0a0b14] to-[#05060b]" />
+
+  <div className="max-w-6xl mx-auto px-4">
+    <motion.h2
+      variants={fadeUp}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: true, amount: 0.3 }}
+      className="text-3xl md:text-4xl font-bold"
+    >
+      Open Source <span className="text-emerald-300">Contributions</span>
+    </motion.h2>
+
+    <p className="mt-3 text-white/70 max-w-2xl">
+      Contributions to real-world open-source projects, focusing on code quality,
+      collaboration, and production-ready systems.
+    </p>
+
+    <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      {openSourceContributions.map((c, idx) => (
+        <motion.div
+          key={c.project}
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: idx * 0.05 }}
+        >
+          <NeonCard className="hover:scale-[1.01] transition">
+            <div className="p-5 flex flex-col gap-4">
+              <div className="flex items-center gap-2 text-sm text-white/80">
+                <Sparkles className="w-4 h-4 text-emerald-300" />
+                <span className="font-semibold">{c.project}</span>
+              </div>
+
+              <div className="text-xs text-cyan-300">{c.role}</div>
+
+              <p className="text-white/80 text-sm leading-relaxed min-h-[60px]">
+                {c.desc}
+              </p>
+
+              <div className="flex flex-wrap gap-2">
+                {c.tech.map((t) => (
+                  <span
+                    key={t}
+                    className="rounded-full border border-white/15 bg-white/5 px-2.5 py-1 text-xs text-white/70"
+                  >
+                    {t}
+                  </span>
+                ))}
+              </div>
+
+              <a
+                href={c.pr}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-2 text-sm hover:text-emerald-300 inline-flex items-center gap-1"
+              >
+                View on GitHub <ExternalLink className="w-4 h-4" />
+              </a>
+            </div>
+          </NeonCard>
+        </motion.div>
+      ))}
+    </div>
+  </div>
+</section>
+
 
             {/* Experience / Timeline */}
             <section id="experience" className="py-20">
